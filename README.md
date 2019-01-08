@@ -1,4 +1,60 @@
-# react-native-yz-vlcplayer
+
+在RN中的使用方法如下:
+return (<VlCPlayerView
+                ref={(vlcPlayerView) => this.vlcPlayerView = vlcPlayerView}
+                style={[styles.video]}
+                autoplay={false}               //视屏播放结束时调用this.vlcPlayer.resume(false)方法
+                url={url}           //视屏url
+                ggUrl=""                      // 广告url
+                showGG={true}                 // 是否显示广告
+                showTitle={true}              // 是否显示标题
+                title=""                      // 标题
+                showBack={true}               // 是否显示返回按钮
+                onLeftPress={() => Actions.pop()}          // 返回按钮点击事件
+                onBuffering={() => {
+                }}
+                paused={this.state.paused}
+                onLoadStart={() => this.startVideoPlayer()}
+                startFullScreen={() => this.setState({isFull: true})}
+                closeFullScreen={() => this.setState({isFull: false})}
+                onError={() => this.stopVideoPlayer()}
+                onEnd={() => this.stopVideoPlayer()}
+                onPaused={() => this.stopVideoPlayer()}
+                onStopped={() => this.stopVideoPlayer()}
+            />)  
+  
+  支持的音频、视频格式如下:
+  isVideo = (extension) => {
+        if (isEmpty(extension)) return false
+        return (extension === 'video'
+            || extension === 'mov'
+            || extension === 'wav'
+            || extension === 'wmv'
+            || extension === 'avi'
+            || extension === 'rm'
+            || extension === 'rmvb'
+            || extension === 'mpeg1'
+            || extension === 'mpeg2'
+            || extension === '3gp'
+            || extension === 'mp4'
+            || extension === 'asf'
+            || extension === 'swf'
+            || extension === 'vob'
+            || extension === 'dat'
+            || extension === 'm4v'
+            || extension === 'mp4'
+            || extension === 'mp3'
+            || extension === 'flv'
+            || extension === 'flash'
+            || extension === 'f4v'
+            || extension === 'wma'
+            || extension === 'mid'
+            || extension === 'mkv'
+            || extension === 'mts') ? true : false
+    }
+    
+    
+# react-native-z-vlcplayer
 
 A `<VLCPlayer>` component for react-native
 此项目 参考[react-native-video](https://github.com/react-native-community/react-native-video)，
@@ -39,7 +95,7 @@ VLCPlayer 支持各种格式(mp4,m3u8,flv,mov,rtsp,rtmp,etc.)，具体参看[vlc
 
 ###  install
 
-     `npm install react-native-yz-vlcplayer --save`
+     `npm install react-native-vz-vlcplayer --save`
 
 
 ## android setup
@@ -48,7 +104,7 @@ android vlc-sdk from:[https://github.com/mengzhidaren/Vlc-sdk-lib](https://githu
 
 step 1:
 
-Run `react-native link react-native-yz-vlcplayer`
+Run `react-native link react-native-vz-vlcplayer`
 
 
 ## ios setup
@@ -59,7 +115,7 @@ reference: [https://code.videolan.org/videolan/VLCKit](https://code.videolan.org
 
 step 1:
 
-   Run `react-native link react-native-yz-vlcplayer`
+   Run `react-native link react-native-vz-vlcplayer`
 
 step 2:
 
