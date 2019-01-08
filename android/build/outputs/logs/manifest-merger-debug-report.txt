@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+		ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+		ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:1-10:12
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:5:5-8:19
+	android:supportsRtl
+		ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:6:9-35
+	android:label
+		ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml:5:19-51
+uses-sdk
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+		ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+		ADDED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenliang/Waspal/node_modules/react-native-yz-vlcplayer/android/src/main/AndroidManifest.xml
