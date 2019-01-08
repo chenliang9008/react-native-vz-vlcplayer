@@ -67,10 +67,7 @@ VLCPlayer 支持各种格式(mp4,m3u8,flv,mov,rtsp,rtmp,etc.)，具体参看[vlc
 ## Example project
 
    [https://github.com/xuyuanzhou/vlcplayerExample](https://github.com/xuyuanzhou/vlcplayerExample)
-
-   ![](https://github.com/xuyuanzhou/resource/blob/master/gif/lizi.gif)
-
-
+   
 ## Xcode10+ 的一些问题
 
 （1）libstdc++.6.0.9.tbd 找不到
