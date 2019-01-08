@@ -54,7 +54,7 @@ return (<VlCPlayerView
     }
     
     
-# react-native-z-vlcplayer
+# react-native-vz-vlcplayer
 
 A `<VLCPlayer>` component for react-native
 此项目 参考[react-native-video](https://github.com/react-native-community/react-native-video)，
