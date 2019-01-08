@@ -1,5 +1,7 @@
 # react-native-vz-vlcplayer
 
+这是一个视屏播放 sdk ,React native 版本,支持android 和 IOS 双系统,本人已开发好,非常好用,目前支持20多种视屏格式
+
 在RN中的使用方法如下:
 return (<VlCPlayerView
                 ref={(vlcPlayerView) => this.vlcPlayerView = vlcPlayerView}
