@@ -211,7 +211,7 @@ this.vlcPlayer.snapshot(path)  // path: string  存储的文件的路径。
 
 ##  VLCPlayer props
 
-    import { VLCPlayer } from 'react-native-yz-vlcplayer';
+    import { VLCPlayer } from 'react-native-vz-vlcplayer';
 
    | props       | type     |  value  |   describe |
    | --------    | :----:   |  :----:  |   :----:   |
@@ -305,7 +305,7 @@ this.vlcPlayer.snapshot(path)  // path: string  存储的文件的路径。
 
 ##  use plugin
 ````
-   import { VLCPlayer, VlCPlayerView } from 'react-native-yz-vlcplayer';
+   import { VLCPlayer, VlCPlayerView } from 'react-native-vz-vlcplayer';
    import Orientation from 'react-native-orientation';
 
    (1)
@@ -389,24 +389,6 @@ this.vlcPlayer.snapshot(path)  // path: string  存储的文件的路径。
 
 ````
 
-## 可用的源
-
-香港财经,rtmp://202.69.69.180:443/webcast/bshdlive-pc
-
-湖南卫视,rtmp://58.200.131.2:1935/livetv/hunantv
-
-rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov
-
-
-## 版本简单说明
-
-````
-    1.1.1-beta7:
-        (1) 增加  autoAspectRatio  bool  (only  on  Android)
-            占满Android满屏
-````
-
-
 ## Simple Example
 
 ````
@@ -423,7 +405,7 @@ rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov
 
    (2)
 
-       import { VLCPlayer, VlcSimplePlayer } from 'react-native-yz-vlcplayer';
+       import { VLCPlayer, VlcSimplePlayer } from 'react-native-vz-vlcplayer';
        import Orientation from 'react-native-orientation';
 
 
