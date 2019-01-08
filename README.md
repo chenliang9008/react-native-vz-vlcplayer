@@ -1,3 +1,4 @@
+# react-native-vz-vlcplayer
 
 在RN中的使用方法如下:
 return (<VlCPlayerView
@@ -52,9 +53,6 @@ return (<VlCPlayerView
             || extension === 'mkv'
             || extension === 'mts') ? true : false
     }
-    
-    
-# react-native-vz-vlcplayer
 
 A `<VLCPlayer>` component for react-native
 此项目 参考[react-native-video](https://github.com/react-native-community/react-native-video)，
